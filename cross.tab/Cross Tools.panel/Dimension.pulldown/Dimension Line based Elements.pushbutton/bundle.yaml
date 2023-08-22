@@ -1,0 +1,5 @@
+title: "Dimension Line based Elements"
+tooltip: |
+  Quick dimension selected elements. Full support for line base elements only (eg. pipes, walls, lines, grids). Don't currently fully work with family instance!
+
+  Author: Erich Domme
