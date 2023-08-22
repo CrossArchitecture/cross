@@ -117,134 +117,6 @@
       "Description": "Returns the maximum value from a list.\n\nList.MaximumItem (list: var[]): var[]..[]"
     },
     {
-      "ConcreteType": "Dynamo.Graph.Nodes.CustomNodes.Function, DynamoCore",
-      "FunctionSignature": "8c837cab-46ce-4976-8ae0-2e6158103945",
-      "FunctionType": "Graph",
-      "NodeType": "FunctionNode",
-      "Id": "1691301c2e4d4cbbbd47ce1b3d3c45cc",
-      "Inputs": [
-        {
-          "Id": "9d64f6a60271466e9cd003eaa80261c8",
-          "Name": "seq",
-          "Description": "var[]",
-          "UsingDefaultValue": false,
-          "Level": 2,
-          "UseLevels": false,
-          "KeepListStructure": false
-        }
-      ],
-      "Outputs": [
-        {
-          "Id": "0e037bca1c534265a57c9d6a5c809d6f",
-          "Name": "uniqueElements",
-          "Description": "return value",
-          "UsingDefaultValue": false,
-          "Level": 2,
-          "UseLevels": false,
-          "KeepListStructure": false
-        },
-        {
-          "Id": "155d60cc83fb4a96a0b7ecc7ce5d6eec",
-          "Name": "count",
-          "Description": "return value",
-          "UsingDefaultValue": false,
-          "Level": 2,
-          "UseLevels": false,
-          "KeepListStructure": false
-        }
-      ],
-      "Replication": "Auto",
-      "Description": "Counts the number of occurences of each unique element in a given list"
-    },
-    {
-      "ConcreteType": "CoreNodeModels.Watch, CoreNodeModels",
-      "NodeType": "ExtensionNode",
-      "Id": "91b8b0ebe6d049119d87124afbf404c3",
-      "Inputs": [
-        {
-          "Id": "904855133bb9407e813a77628bc53c96",
-          "Name": "",
-          "Description": "Node to evaluate.",
-          "UsingDefaultValue": false,
-          "Level": 2,
-          "UseLevels": false,
-          "KeepListStructure": false
-        }
-      ],
-      "Outputs": [
-        {
-          "Id": "50124b20fbeb4655b734b96432fa2e3a",
-          "Name": "",
-          "Description": "Watch contents.",
-          "UsingDefaultValue": false,
-          "Level": 2,
-          "UseLevels": false,
-          "KeepListStructure": false
-        }
-      ],
-      "Replication": "Disabled",
-      "Description": "Visualize the output of node."
-    },
-    {
-      "ConcreteType": "CoreNodeModels.Watch, CoreNodeModels",
-      "NodeType": "ExtensionNode",
-      "Id": "e9e1e37df9234f1bad2cacb68f38b367",
-      "Inputs": [
-        {
-          "Id": "9ae6e09a6d3048758ab11e09cfebb250",
-          "Name": "",
-          "Description": "Node to evaluate.",
-          "UsingDefaultValue": false,
-          "Level": 2,
-          "UseLevels": false,
-          "KeepListStructure": false
-        }
-      ],
-      "Outputs": [
-        {
-          "Id": "9ea5f8b35be148e1b6d8ca1385b8e3a6",
-          "Name": "",
-          "Description": "Watch contents.",
-          "UsingDefaultValue": false,
-          "Level": 2,
-          "UseLevels": false,
-          "KeepListStructure": false
-        }
-      ],
-      "Replication": "Disabled",
-      "Description": "Visualize the output of node."
-    },
-    {
-      "ConcreteType": "Dynamo.Graph.Nodes.ZeroTouch.DSFunction, DynamoCore",
-      "NodeType": "FunctionNode",
-      "FunctionSignature": "DSCore.Math.Average@double[]",
-      "Id": "03cc56803f924cb48fa2193e9419c2ba",
-      "Inputs": [
-        {
-          "Id": "9bf1545011744209a3c18e2ee71c384d",
-          "Name": "numbers",
-          "Description": "List of numbers to be averaged.\n\ndouble[]",
-          "UsingDefaultValue": false,
-          "Level": 2,
-          "UseLevels": false,
-          "KeepListStructure": false
-        }
-      ],
-      "Outputs": [
-        {
-          "Id": "c2f6e0bdddbc4a1998512c209c8483d0",
-          "Name": "average",
-          "Description": "Average of the list of numbers.",
-          "UsingDefaultValue": false,
-          "Level": 2,
-          "UseLevels": false,
-          "KeepListStructure": false
-        }
-      ],
-      "Replication": "Auto",
-      "Description": "Averages a list of numbers.\n\nMath.Average (numbers: double[]): double"
-    },
-    {
       "ConcreteType": "Dynamo.Graph.Nodes.ZeroTouch.DSFunction, DynamoCore",
       "NodeType": "FunctionNode",
       "FunctionSignature": "<=@var[]..[],var[]..[]",
@@ -1229,12 +1101,12 @@
     {
       "ConcreteType": "Dynamo.Graph.Nodes.CodeBlockNodeModel, DynamoCore",
       "NodeType": "CodeBlockNode",
-      "Code": "\"For the following application you will need some things:\\n\n1. 3D View with the name: Finish Room Height\\n\n        - A view just with rooms and finished geometry\\n\n2. 3D View with the name: Raw Room Height\\n\n        - A view just with rooms and raw geometry\\n\n3. Room Parameter:\\n\n        - CXS Lichte_Raumhoehe_min\\n\n        - CXS Lichte_Raumhoehe_max\\n\n        - CXS Lichte_Raumhoehe_avg\\n\n        - CXS Roh_Raumhoehe_min\\n\n        - CXS Roh_Raumhoehe_max\\n\n        - CXS Roh_Raumhoehe_avg\\n\";",
+      "Code": "\"For the following application you will need some things:\\n\n1. 3D View with the name: Finish Room Height\\n\n        - A view just with rooms and finished geometry\\n\n2. 3D View with the name: Raw Room Height\\n\n        - A view just with rooms and raw geometry\\n\n3. Room Parameter:\\n\n        - CXS Lichte_Raumhoehe_min\\n\n        - CXS Lichte_Raumhoehe_max\\n\n        - CXS Roh_Raumhoehe_min\\n\n        - CXS Roh_Raumhoehe_max\\n\";",
       "Id": "44194730c4504c3caed99eded46cb3c6",
       "Inputs": [],
       "Outputs": [
         {
-          "Id": "2a54e2a1e89243f6932636b5b9bcfefc",
+          "Id": "4416a81723ea4cc7931aa99fb866c33c",
           "Name": "",
           "Description": "Value of expression at line 1",
           "UsingDefaultValue": false,
@@ -3350,21 +3222,6 @@
       "Id": "849e72ad80574026a1bb487a3b97db1d"
     },
     {
-      "Start": "0e037bca1c534265a57c9d6a5c809d6f",
-      "End": "904855133bb9407e813a77628bc53c96",
-      "Id": "2c1afc21552a4984bdb1831b5d1bde62"
-    },
-    {
-      "Start": "155d60cc83fb4a96a0b7ecc7ce5d6eec",
-      "End": "9ae6e09a6d3048758ab11e09cfebb250",
-      "Id": "722af78b318143089521ced382170a6c"
-    },
-    {
-      "Start": "9ea5f8b35be148e1b6d8ca1385b8e3a6",
-      "End": "9bf1545011744209a3c18e2ee71c384d",
-      "Id": "79ef5c9f2e7d44ec8c7a9e6dbf2a1d63"
-    },
-    {
       "Start": "bcc8138445944b31a3d5151ac8f5c714",
       "End": "3f15802873694e4ba9488d956b5e1933",
       "Id": "32595ab2160f4530818e4e1663a7cde9"
@@ -3485,11 +3342,6 @@
       "Id": "f7f33f7c776b4082a632649b399c43a8"
     },
     {
-      "Start": "4c7b4e307ae042b887c18b0e648a36bc",
-      "End": "9d64f6a60271466e9cd003eaa80261c8",
-      "Id": "94e4f1ed8d304056a518fa005dbf3d0e"
-    },
-    {
       "Start": "534bda9dc7c94901912fe31296a85b79",
       "End": "3f45c6553e49497a8b480eb74831c86e",
       "Id": "d574618977cb4673b7d6eea620070d87"
@@ -3565,9 +3417,9 @@
       "Id": "51f29c82d43d43a583a859b66ebffcc3"
     },
     {
-      "Start": "2a54e2a1e89243f6932636b5b9bcfefc",
+      "Start": "4416a81723ea4cc7931aa99fb866c33c",
       "End": "63100df04a4b46d390ec1e3c81647f26",
-      "Id": "27dde2eebb094557931320b05ecaa8f9"
+      "Id": "e763bd8ead81457b80c130d953b19200"
     },
     {
       "Start": "c33f08fc2e17483b9c0741848f908baa",
@@ -3926,7 +3778,6 @@
     }
   ],
   "Dependencies": [
-    "8c837cab-46ce-4976-8ae0-2e6158103945",
     "9fbd05c0-ec1f-4bd3-bf37-969a1552eab8",
     "21f76aa4-5026-47ec-b977-474280c81d74",
     "c3a36eb7-8fe8-4417-b31e-ccc9fded769b",
@@ -3934,16 +3785,6 @@
     "4ca81f03-d333-46ac-ac82-f863416c768d"
   ],
   "NodeLibraryDependencies": [
-    {
-      "Name": "Clockwork for Dynamo 2.x",
-      "Version": "2.6.0",
-      "ReferenceType": "Package",
-      "Nodes": [
-        "1691301c2e4d4cbbbd47ce1b3d3c45cc",
-        "2befa277bf9145b694ba8c1be55295ca",
-        "61d60aac7fb447728c3e07e8956284ec"
-      ]
-    },
     {
       "Name": "DynamoMEP",
       "Version": "1.0.3",
@@ -3965,6 +3806,15 @@
         "79b295751a17415798996c3a7c57c860",
         "ede047f6a7864135940928d43526e01b",
         "4b6d8f176b314d568794497dee983dd4"
+      ]
+    },
+    {
+      "Name": "Clockwork for Dynamo 2.x",
+      "Version": "2.6.0",
+      "ReferenceType": "Package",
+      "Nodes": [
+        "2befa277bf9145b694ba8c1be55295ca",
+        "61d60aac7fb447728c3e07e8956284ec"
       ]
     },
     {
@@ -4028,46 +3878,6 @@
         "Excluded": false,
         "X": 4568.06100254198,
         "Y": 380.09289981555
-      },
-      {
-        "ShowGeometry": true,
-        "Name": "List.CountOccurences",
-        "Id": "1691301c2e4d4cbbbd47ce1b3d3c45cc",
-        "IsSetAsInput": false,
-        "IsSetAsOutput": false,
-        "Excluded": false,
-        "X": 3829.7443720673996,
-        "Y": -1428.382102447669
-      },
-      {
-        "ShowGeometry": true,
-        "Name": "Watch",
-        "Id": "91b8b0ebe6d049119d87124afbf404c3",
-        "IsSetAsInput": false,
-        "IsSetAsOutput": false,
-        "Excluded": false,
-        "X": 4750.8472638155863,
-        "Y": -1421.0927051904271
-      },
-      {
-        "ShowGeometry": true,
-        "Name": "Watch",
-        "Id": "e9e1e37df9234f1bad2cacb68f38b367",
-        "IsSetAsInput": false,
-        "IsSetAsOutput": false,
-        "Excluded": false,
-        "X": 4515.9207022729361,
-        "Y": -1070.6566744904751
-      },
-      {
-        "ShowGeometry": true,
-        "Name": "Math.Average",
-        "Id": "03cc56803f924cb48fa2193e9419c2ba",
-        "IsSetAsInput": false,
-        "IsSetAsOutput": false,
-        "Excluded": false,
-        "X": 4748.5474150132259,
-        "Y": -989.40407264194
       },
       {
         "ShowGeometry": true,
@@ -5022,8 +4832,8 @@
         "Background": "#FF90EE90"
       }
     ],
-    "X": -2821.0293961178859,
-    "Y": 187.14796684613475,
-    "Zoom": 0.835902085698059
+    "X": 545.95570776197667,
+    "Y": 418.40610553192073,
+    "Zoom": 0.11606985867189362
   }
 }
