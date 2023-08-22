@@ -1,0 +1,14 @@
+layout:
+  - SelCat
+  - SelType
+  - SelTtbs
+  - -----
+  - PreMulti
+  - Pre3D
+  - Pre2D
+  - -----
+  - DeGroup
+
+title: Selection
+
+author: Erich Domme

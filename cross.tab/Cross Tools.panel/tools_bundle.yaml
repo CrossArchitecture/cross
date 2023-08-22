@@ -1,7 +1,8 @@
 layout:
+  - RoomBook
+  - Selection
   - Sheets
   - Tag
-  - RoomBook
   - -----
   - Warning
   - -----
