@@ -1,0 +1,5 @@
+title: 03 Assign Finished and Raw Room Height
+
+tooltip: The third step in the room book process! Finds all placed rooms in the project, sorts them by size, calculates the height using a grid and writes the result into the predefined parameters.
+
+author: Erich Domme
