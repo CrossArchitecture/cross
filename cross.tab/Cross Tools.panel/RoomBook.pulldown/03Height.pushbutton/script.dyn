@@ -54,7 +54,7 @@
           "KeepListStructure": false
         }
       ],
-      "Replication": "Auto",
+      "Replication": "Longest",
       "Description": "Filters a sequence by looking up corresponding indices in a separate list of booleans.\n\nList.FilterByBoolMask (list: var[]..[], mask: var[]..[]): var[]..[]"
     },
     {
@@ -4899,7 +4899,7 @@
         "Height": 298.779047186497,
         "FontSize": 24.0,
         "InitialTop": 167.433615153272,
-        "InitialHeight": 289.779047186497,
+        "InitialHeight": 311.779047186497,
         "TextblockHeight": 29.0,
         "Background": "#FFFFA07A"
       },
@@ -4915,7 +4915,7 @@
         "Height": 178.0,
         "FontSize": 24.0,
         "InitialTop": 818.97731360562,
-        "InitialHeight": 169.0,
+        "InitialHeight": 145.0,
         "TextblockHeight": 29.0,
         "Background": "#FFFFA07A"
       },
@@ -4947,7 +4947,7 @@
         "Height": 949.20880119853734,
         "FontSize": 24.0,
         "InitialTop": -86.1404904338503,
-        "InitialHeight": 940.20880119853734,
+        "InitialHeight": 962.20880119853734,
         "TextblockHeight": 29.0,
         "Background": "#FFFFA07A"
       },
@@ -4983,7 +4983,7 @@
         "Height": 1238.7950749815873,
         "FontSize": 24.0,
         "InitialTop": -86.1404904338503,
-        "InitialHeight": 591.839999156953,
+        "InitialHeight": 1199.7950749815873,
         "TextblockHeight": 29.0,
         "Background": "#FF87CEFA"
       },
@@ -5017,13 +5017,13 @@
         "Height": 828.20837010459377,
         "FontSize": 96.0,
         "InitialTop": -213.779781593223,
-        "InitialHeight": 651.98396942146292,
+        "InitialHeight": 755.20837010459377,
         "TextblockHeight": 115.0,
         "Background": "#FF90EE90"
       }
     ],
-    "X": 587.541467380093,
-    "Y": 440.76421199143465,
-    "Zoom": 0.047543564344248113
+    "X": -2821.0293961178859,
+    "Y": 187.14796684613475,
+    "Zoom": 0.835902085698059
   }
 }
