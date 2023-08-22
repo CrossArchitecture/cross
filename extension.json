@@ -1,0 +1,14 @@
+{
+    "builtin": "False",
+    "default_enabled": "True",
+    "type": "extension",
+    "rocket_mode_compatible": "False",
+    "name": "cross",
+    "description": "Extensions for Cross Architecture",
+    "author": "Erich Domme",
+    "author_profile": "https://github.com/CrossArchitecture",
+    "url": "https://github.com/CrossArchitecture/cross.git",
+    "website": "https://github.com/CrossArchitecture",
+    "image": "",
+    "dependencies": []
+}
