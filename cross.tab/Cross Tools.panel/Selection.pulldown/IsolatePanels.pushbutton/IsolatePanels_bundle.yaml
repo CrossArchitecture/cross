@@ -1,0 +1,9 @@
+context:
+  - doc-project
+  - selection
+
+title: Isolate Panels
+
+tooltip: Isolate Panels from Facade.
+
+author: Erich Domme

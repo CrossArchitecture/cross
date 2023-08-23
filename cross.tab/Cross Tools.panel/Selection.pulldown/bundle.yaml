@@ -8,6 +8,8 @@ layout:
   - Pre2D
   - -----
   - DeGroup
+  - -----
+  - IsolatePanels
 
 title: Selection
 
