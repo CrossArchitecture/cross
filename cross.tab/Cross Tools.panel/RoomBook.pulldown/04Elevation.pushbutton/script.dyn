@@ -2542,6 +2542,231 @@
       ],
       "Replication": "Auto",
       "Description": "Flattens a nested list of lists by a certain amount.\n\nList.Flatten (list: var[]..[], amt: int = -1): var[]..[]"
+    },
+    {
+      "ConcreteType": "Dynamo.Graph.Nodes.ZeroTouch.DSFunction, DynamoCore",
+      "NodeType": "FunctionNode",
+      "FunctionSignature": "Revit.Elements.Element.GetParameterValueByName@string",
+      "Id": "41978fca7c7146079ebd012dbbb054eb",
+      "Inputs": [
+        {
+          "Id": "6718231cde7447a3a52579632d061ad1",
+          "Name": "element",
+          "Description": "Revit.Elements.Element",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        },
+        {
+          "Id": "b05463ea54754e908a38553aa56e8e9d",
+          "Name": "parameterName",
+          "Description": "The name of the parameter whose value you want to obtain.\n\nstring",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        }
+      ],
+      "Outputs": [
+        {
+          "Id": "3fb3d04a6bb341f398c832ed5c9fb7eb",
+          "Name": "var[]..[]",
+          "Description": "var[]..[]",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        }
+      ],
+      "Replication": "Auto",
+      "Description": "Get the value of one of the element's parameters.\n\nElement.GetParameterValueByName (parameterName: string): var[]..[]"
+    },
+    {
+      "ConcreteType": "Dynamo.Graph.Nodes.CodeBlockNodeModel, DynamoCore",
+      "NodeType": "CodeBlockNode",
+      "Code": "\"Elevation\";\n4;\n\" | \";",
+      "Id": "b6aae9b3a03d409bbcc82ba559dbdbce",
+      "Inputs": [],
+      "Outputs": [
+        {
+          "Id": "720f19e1d0f241fd80a5fd7f7edde374",
+          "Name": "",
+          "Description": "Value of expression at line 1",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        },
+        {
+          "Id": "d3021267f0674efba4a3b8f5360c5536",
+          "Name": "",
+          "Description": "Value of expression at line 2",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        },
+        {
+          "Id": "9f32e2f09a984a54b457874ec43755d6",
+          "Name": "",
+          "Description": "Value of expression at line 3",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        }
+      ],
+      "Replication": "Disabled",
+      "Description": "Allows for DesignScript code to be authored directly"
+    },
+    {
+      "ConcreteType": "Dynamo.Graph.Nodes.ZeroTouch.DSFunction, DynamoCore",
+      "NodeType": "FunctionNode",
+      "FunctionSignature": "DSCore.Math.Round@double,int",
+      "Id": "3f22216c11714854b2810be85a3ef932",
+      "Inputs": [
+        {
+          "Id": "606a99281110462f877088be60ce483e",
+          "Name": "number",
+          "Description": "Number to be rounded.\n\ndouble",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        },
+        {
+          "Id": "01fc8e581552448ba7ecfd53bbba78b0",
+          "Name": "digits",
+          "Description": "Number of fractional digits in the return value.\n\nint",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        }
+      ],
+      "Outputs": [
+        {
+          "Id": "9598204d6fbe49d0b88761a0d83b6d68",
+          "Name": "number",
+          "Description": "The number nearest to value that contains a number of fractional digits equal to digits.",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        }
+      ],
+      "Replication": "Auto",
+      "Description": "Rounds a number to a specified number of fractional digits.\n\nMath.Round (number: double, digits: int): double"
+    },
+    {
+      "ConcreteType": "CoreNodeModels.FromObject, CoreNodeModels",
+      "NodeType": "ExtensionNode",
+      "Id": "d06270e5435945a199da66412bd1e58f",
+      "Inputs": [
+        {
+          "Id": "b42979b9c325475cb414fa4e91499970",
+          "Name": "obj",
+          "Description": "Object to be serialized",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        }
+      ],
+      "Outputs": [
+        {
+          "Id": "39db173a2dbf4bb4878ec1a8d00d9dd8",
+          "Name": "str",
+          "Description": "Result of math computation",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        }
+      ],
+      "Replication": "Disabled",
+      "Description": "Convert an object to a string representation."
+    },
+    {
+      "ConcreteType": "Dynamo.Graph.Nodes.ZeroTouch.DSVarArgFunction, DynamoCore",
+      "FunctionSignature": "DSCore.List.Join@var[]..[]",
+      "FunctionType": "VariableArgument",
+      "NodeType": "FunctionNode",
+      "Id": "0dcb06210b3d408f8f769bd8ec2ad58d",
+      "Inputs": [
+        {
+          "Id": "60209b876e2d4b548d130c812e3b4c5c",
+          "Name": "list0",
+          "Description": "Lists to join into one.\n\nvar[]..[]",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        }
+      ],
+      "Outputs": [
+        {
+          "Id": "cfd4750288ca4fadb5ecbb4b49c0d3cf",
+          "Name": "list",
+          "Description": "Joined list.",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        }
+      ],
+      "Replication": "Disabled",
+      "Description": "Concatenates all given lists into a single list.\n\nList.Join (lists: var[]..[]): var[]..[]"
+    },
+    {
+      "ConcreteType": "PythonNodeModels.PythonNode, PythonNodeModels",
+      "NodeType": "PythonScriptNode",
+      "Code": "# Load the Python Standard and DesignScript Libraries\r\nimport sys\r\nimport clr\r\nclr.AddReference('ProtoGeometry')\r\nfrom Autodesk.DesignScript.Geometry import *\r\n\r\n# The inputs to this node will be stored as a list in the IN variables.\r\ndataEnteringNode = IN\r\n\r\n# Extrahiere die Eingangslisten L1 und L2\r\nL1 = IN[0]\r\nL2 = IN[1]\r\nseparator = IN[2]  # Separator string\r\n\r\n# Erstelle eine leere Liste für die neue Liste\r\nnL = []\r\n\r\n# Verwende eine For Each-Schleife, um die Elemente paarweise zu kombinieren\r\nfor elem1, elem2 in zip(L1, L2):\r\n    # Kombiniere die Elemente mit dem Separator und füge sie zur neuen Liste hinzu\r\n    combined = \"{} {} {}\".format(elem1, separator, elem2)\r\n    nL.append(combined)\r\n\r\n# Das Ergebnis ist die neue Liste nL\r\n\r\n# Weise den Wert der Ausgabevariablen OUT zu\r\nOUT = nL\r\n",
+      "VariableInputPorts": true,
+      "Id": "e3e92650eb314cc1bd47be74674cdcd7",
+      "Inputs": [
+        {
+          "Id": "4652e5ed41c544beb24a3d1a3e8e45a4",
+          "Name": "IN[0]",
+          "Description": "Input #0",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        },
+        {
+          "Id": "2687db3aa75e437da87215f951a236ab",
+          "Name": "IN[1]",
+          "Description": "Input #1",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        },
+        {
+          "Id": "8f866498d91e459cbde1db26198d207b",
+          "Name": "IN[2]",
+          "Description": "Input #2",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        }
+      ],
+      "Outputs": [
+        {
+          "Id": "76620ffd35f3423d9f46f66e2ea58fc1",
+          "Name": "OUT",
+          "Description": "Result of the python script",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        }
+      ],
+      "Replication": "Disabled",
+      "Description": "Runs an embedded IronPython script."
     }
   ],
   "Connectors": [
@@ -2961,6 +3186,11 @@
       "Id": "b5444016c52b40afb1216f647d32d7a5"
     },
     {
+      "Start": "c48eaaedcfd243829ef251902ef941aa",
+      "End": "6718231cde7447a3a52579632d061ad1",
+      "Id": "043e94d6500e41e7b5fa0b4bb24d771d"
+    },
+    {
       "Start": "fde01b916913430fb318717c636e3000",
       "End": "507db7fefeed4778bbfde64f1d0b4fdf",
       "Id": "76851780fd234d5a9b8482d351a0b33e"
@@ -2987,13 +3217,48 @@
     },
     {
       "Start": "e7f3124b3b3247dfb42471abdd32b04f",
-      "End": "222a1fc213204cb29816be99187fdfe8",
-      "Id": "e72130612d9f432a9b1ebacade6869b2"
+      "End": "4652e5ed41c544beb24a3d1a3e8e45a4",
+      "Id": "e35077d5d8dd442ea6eabec878d7db27"
     },
     {
       "Start": "30548064db4d4a5b93b771fe111ffa68",
       "End": "8a198b71bcd940fb836e4d1298516528",
       "Id": "a029c83b670541f7b03e92fa9f4c3a2b"
+    },
+    {
+      "Start": "3fb3d04a6bb341f398c832ed5c9fb7eb",
+      "End": "606a99281110462f877088be60ce483e",
+      "Id": "3ec1f3077904411b8e0cc9446b6b99ee"
+    },
+    {
+      "Start": "720f19e1d0f241fd80a5fd7f7edde374",
+      "End": "b05463ea54754e908a38553aa56e8e9d",
+      "Id": "fcd6cd8e63ad4c65996cbddf92593e0f"
+    },
+    {
+      "Start": "d3021267f0674efba4a3b8f5360c5536",
+      "End": "01fc8e581552448ba7ecfd53bbba78b0",
+      "Id": "cafdfbdf9bd84b7787ac2d944ddbb2fd"
+    },
+    {
+      "Start": "9f32e2f09a984a54b457874ec43755d6",
+      "End": "8f866498d91e459cbde1db26198d207b",
+      "Id": "625c8dcb91ff4eb9a58c887c3c946656"
+    },
+    {
+      "Start": "9598204d6fbe49d0b88761a0d83b6d68",
+      "End": "b42979b9c325475cb414fa4e91499970",
+      "Id": "fb3812c8aa234b779fc749d1318dae1c"
+    },
+    {
+      "Start": "39db173a2dbf4bb4878ec1a8d00d9dd8",
+      "End": "2687db3aa75e437da87215f951a236ab",
+      "Id": "bee192659efb4aee8c5092a78d4f1cb7"
+    },
+    {
+      "Start": "76620ffd35f3423d9f46f66e2ea58fc1",
+      "End": "222a1fc213204cb29816be99187fdfe8",
+      "Id": "f25d1620324644d3a8f09cb7262178c1"
     }
   ],
   "Dependencies": [
@@ -3767,6 +4032,66 @@
         "Excluded": false,
         "X": 144.787734322172,
         "Y": -1487.41232726888
+      },
+      {
+        "ShowGeometry": true,
+        "Name": "Element.GetParameterValueByName",
+        "Id": "41978fca7c7146079ebd012dbbb054eb",
+        "IsSetAsInput": false,
+        "IsSetAsOutput": false,
+        "Excluded": false,
+        "X": -2888.4161570539518,
+        "Y": -290.59369234116571
+      },
+      {
+        "ShowGeometry": true,
+        "Name": "Code Block",
+        "Id": "b6aae9b3a03d409bbcc82ba559dbdbce",
+        "IsSetAsInput": false,
+        "IsSetAsOutput": false,
+        "Excluded": false,
+        "X": -3068.9410304091662,
+        "Y": -266.1334136262119
+      },
+      {
+        "ShowGeometry": true,
+        "Name": "Math.Round",
+        "Id": "3f22216c11714854b2810be85a3ef932",
+        "IsSetAsInput": false,
+        "IsSetAsOutput": false,
+        "Excluded": false,
+        "X": -2603.07033005072,
+        "Y": -285.57367834137517
+      },
+      {
+        "ShowGeometry": true,
+        "Name": "String from Object",
+        "Id": "d06270e5435945a199da66412bd1e58f",
+        "IsSetAsInput": false,
+        "IsSetAsOutput": false,
+        "Excluded": false,
+        "X": -2359.6145177860808,
+        "Y": -210.65553679709978
+      },
+      {
+        "ShowGeometry": true,
+        "Name": "List.Join",
+        "Id": "0dcb06210b3d408f8f769bd8ec2ad58d",
+        "IsSetAsInput": false,
+        "IsSetAsOutput": false,
+        "Excluded": false,
+        "X": -2190.370539997346,
+        "Y": -222.58512665108145
+      },
+      {
+        "ShowGeometry": true,
+        "Name": "Test",
+        "Id": "e3e92650eb314cc1bd47be74674cdcd7",
+        "IsSetAsInput": false,
+        "IsSetAsOutput": false,
+        "Excluded": false,
+        "X": -2106.8152099855952,
+        "Y": -122.62376869860515
       }
     ],
     "Annotations": [
@@ -3898,13 +4223,13 @@
         "Height": 1123.5639054263584,
         "FontSize": 96.0,
         "InitialTop": -1305.8102185330049,
-        "InitialHeight": 855.54580576295984,
+        "InitialHeight": 913.198252677481,
         "TextblockHeight": 115.0,
         "Background": "#FF90EE90"
       }
     ],
-    "X": -1058.8826400585722,
-    "Y": 3236.5929648656042,
-    "Zoom": 1.8374121407151285
+    "X": 1764.5205578693879,
+    "Y": 781.823343684964,
+    "Zoom": 0.63356529905197245
   }
 }
