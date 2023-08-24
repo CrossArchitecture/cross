@@ -2,6 +2,7 @@ layout:
   - 01GenerateParameter
   - 02DoorsAndWindows
   - 03Height
+  - 04Elevation
 
 title: Room Book
 
