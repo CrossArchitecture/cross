@@ -180,56 +180,88 @@ Congratulations!</p>
 
 
 ## Cross Tools - Features
-* __Dimension__
-  * Dimension Line based Elements [Python]
-* __Generate__
-  * Beam(s) through input Surface [Dynamo]
-* __Parameter__
-  * Disallow Join [Python]
-  * Wall constraints: Base [Python]
-  * Wall constraints: Base & Top [Python]
-  * Wall constraints: Top [Python]
-* __Room Book__
-  * 01 Generate Parameter [Dynamo]
-  * 02 Assign Doors and Windows to their Rooms [Dynamo]
-  * 03 Assign Finished and Raw Room Height [Dynamo]
-  * 04 Assign Elevation Height [Dynamo]
-* __Selection__
-  * Same category as selected [Python]
-  * Same type as selected [Python]
-  * Titleblocks on sheets [Python]
-  * Select only of categories [Python]
-  * Select only 3D [Python]
-  * Select only 2D [Python]
-  * Deselect grouped elements [Python]
-  * Isolate Panels [Dynamo]
-* __Sheets__
-  * Place View(s) on Sheet [Dynamo]
-* __Tag__
-  * Center Room Tags [Python]
-* __Warning__
-  * Warning Management [Dynamo]
-  * Reset Graphical Override [Dynamo]
-* __Purge__
-  * Purge Delete Backups [Python]
-  * Purge DWG Line Patterns [Python]
-  * Purge imported dwg [Python]
-  * Purge unused scope boxes [Python]
-  * Purge unplaced views [Python]
-  * Purge unused sheets [Python]
-  * Remove unplaced rooms [Python]
-  * Remove unplaced areas [Python]
-  * Remove unenclosed areas [Python]
-  * Delete Family [Python]
-  * Delete selected unplaced Views [Dynamo]
-  * Delete unused View Template [Dynamo]
-  * Delete unused Filters [Dynamo]
-  * Ungroup all [Python]
-* __Excel__
-  * Excel [Dynamo]
-* __Testing__
-  * Testing Dynamo [Dynamo]
-  * Testing Python [Python] 
+<details>
+<summary>Dimension</summary>
+Dimension Line based Elements [Python]<br>
+</details>
+
+<details>
+<summary>Generate</summary>
+Beam(s) through input Surface [Dynamo]<br>
+</details>
+
+<details>
+<summary>Parameter</summary>
+Disallow Join [Python]<br>
+Wall constraints: Base [Python]<br>
+Wall constraints: Base & Top [Python]<br>
+Wall constraints: Top [Python]<br>
+</details>
+
+<details>
+<summary>Room Book</summary>
+01 Generate Parameter [Dynamo]<br>
+02 Assign Doors and Windows to their Rooms [Dynamo]<br>
+03 Assign Finished and Raw Room Height [Dynamo]<br>
+04 Assign Elevation Height [Dynamo]<br>
+</details>
+
+<details>
+<summary>Selection</summary>
+Same category as selected [Python]<br>
+Same type as selected [Python]<br>
+Titleblocks on sheets [Python]<br>
+Select only of categories [Python]<br>
+Select only 3D [Python]<br>
+Select only 2D [Python]<br>
+Deselect grouped elements [Python]<br>
+Isolate Panels [Dynamo]<br>
+</details>
+
+<details>
+<summary>Sheets</summary>
+Place View(s) on Sheet [Dynamo]<br>
+</details>
+
+<details>
+<summary>Tag</summary>
+Center Room Tags [Python]<br>
+</details>
+
+<details>
+<summary>Warning</summary>
+Warning Management [Dynamo]<br>
+Reset Graphical Override [Dynamo]<br>
+</details>
+
+<details>
+<summary>Purge</summary>
+Purge Delete Backups [Python]<br>
+Purge DWG Line Patterns [Python]<br>
+Purge imported dwg [Python]<br>
+Purge unused scope boxes [Python]<br>
+Purge unplaced views [Python]<br>
+Purge unused sheets [Python]<br>
+Remove unplaced rooms [Python]<br>
+Remove unplaced areas [Python]<br>
+Remove unenclosed areas [Python]<br>
+Delete Family [Python]<br>
+Delete selected unplaced Views [Dynamo]<br>
+Delete unused View Template [Dynamo]<br>
+Delete unused Filters [Dynamo]<br>
+Ungroup all [Python]<br>
+</details>
+
+<details>
+<summary>Excel</summary>
+Excel [Dynamo]<br>
+</details>
+
+<details>
+<summary>Testing</summary>
+Testing Dynamo [Dynamo]<br>
+Testing Python [Python]<br>
+</details> 
 
 
 ## Screenshots
