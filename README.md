@@ -279,18 +279,17 @@ Testing Python [Python]<br>
 
 ## Project Status
 Project is: 
-<span style="color:yellow">**IN PROGRESS!**</span>
+<span style="color:green">**Version 0.0.1 published!**</span>
 <!-- _complete_ / _no longer being worked on_. If you are no longer working on it, provide reasons why.-->
 
 
 ## Room for Improvement
 Room for improvement:
-- Improvement to be done 1
-- Improvement to be done 2
+- Improvement to be done
+- More Room Book Tools for stepwise creation
 
 To do:
-- Feature to be added 1
-- Feature to be added 2
+- Dimension Tool is still work in progress
 
 
 ## Acknowledgements
