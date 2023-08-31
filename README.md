@@ -278,7 +278,6 @@ Testing Python [Python]<br>
 
 
 ## Project Status
-Project is: 
 <span style="color:green">**Version 0.0.1 published!**</span>
 <!-- _complete_ / _no longer being worked on_. If you are no longer working on it, provide reasons why.-->
 
