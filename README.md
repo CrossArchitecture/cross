@@ -180,6 +180,12 @@ Congratulations!</p>
 
 
 ## Cross Tools - Features
+
+<div align="center">
+<img src="./img/Toolbar.png" >
+<p>The "cross" Extension visible in the Revit toolbar</p>
+</div>
+
 <details>
 <summary>Dimension</summary>
 Dimension Line based Elements [Python]<br>
@@ -265,10 +271,7 @@ Testing Python [Python]<br>
 
 
 ## Screenshots
-<div align="center">
-<img src="./img/Toolbar.png" >
-<p>The "cross" Extension visible in the Revit toolbar</p>
-</div>
+
 
 ## Usage
 
