@@ -58,12 +58,43 @@ Cross-Tools is a collection of tools based on Dynamo and/or Python. The aim of t
 > It is assumed that you have Autodesk Revit installed on your computer!<br>
 > Revit 2021 has been used for development!<br>
 > Except for pyRevit, the other requirements are not mandatory! But they might be, as I will be looking at the extensions in the future!
-1. [pyRevit](https://github.com/eirannejad/pyRevit/releases/tag/v4.8.12.22247%2B0031)
+> The requirements for Dynamo should only be of interest to you if you want to open and edit the scripts in Dynamo.
+
+__Revit Requirements__
+1. [__pyRevit__](https://github.com/eirannejad/pyRevit/releases/tag/v4.8.12.22247%2B0031)
 2. [RevitPythonShell](https://github.com/architecture-building-systems/revitpythonshell)
 3. [RevitLookup](https://github.com/jeremytammik/RevitLookup)
 4. [Revitron](https://github.com/revitron/revitron)
 5. [Revitron-UI](https://github.com/revitron/revitron-ui)
 6. [Speckle](https://speckle.systems/)
+
+__Dynamo Requirements__
+1. archi-lab.net [2023.213.1722]
+2. Clockwork for Dynamo 2.x [2.6.0]
+3. Crumple [2022.5.27]
+4. DynamoMEP [1.0.3]
+5. JBE sheet views [0.0.1]
+6. Journalysis for Dynamo 2.x [2.4.0]
+7. Luchbox for Dynamo [2018.8.8]
+8. Orchid [206.6.0.5911]
+9. ParametricMonkey [1.3.6]
+10. Quasrll [2021.25.101]
+11. Rhythm [2020.9.8]
+12. spring nodes [210.1.1]
+13. SteamNodes [1.2.4]
+14. Topologic [1.4.0]
+15. TuneUp [1.0.7]
+16. Turn Into List [0.1.5]
+17. Bang! [2021.4.3]
+18. bimorphNodes [4.2.4]
+19. Data-Shapes [2022.2.105]
+20. Genius Loci [2023.2.21]
+21. MEPover [2022.10.30]
+22. Monocle [2023.5.1]
+23. SpeckleDynamo2 [2.0.0]
+24. GenerativeDesign [1.2.1]
+25. GenerativeDesign.Extension [1.3.2.0]
+26. GenerativeDesign.Revit [1.2.1]
 
 ## Installation
 In order for Cross-Tools to run on your computer, you will need to do a few installations beforehand. Cross-Tools is based on pyRevit and this is where we start.
