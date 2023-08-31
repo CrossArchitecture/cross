@@ -179,22 +179,57 @@ In order for Cross-Tools to run on your computer, you will need to do a few inst
 Congratulations!</p>
 
 
-## Features
-* __Dynamo__
-  * Beam(s) through input Surface
-  * Excel Export
-  * Delete selected unplaced Views
-  * Warning Management
-  * Reset Graphical Override
-* __Python__
-  * Center Room Tag
-  * Same category as selected
-  * same type as selected
-  * Titleblocks on sheets
-  * Select only categories
-  * Select only 3D
-  * Select only 2D
-  * Deselect grouped elements
+## Cross Tools - Features
+* __Dimension__
+  * Dimension Line based Elements [Python]
+* __Generate__
+  * Beam(s) through input Surface [Dynamo]
+* __Parameter__
+  * Disallow Join [Python]
+  * Wall constraints: Base [Python]
+  * Wall constraints: Base & Top [Python]
+  * Wall constraints: Top [Python]
+* __Room Book__
+  * 01 Generate Parameter [Dynamo]
+  * 02 Assign Doors and Windows to their Rooms [Dynamo]
+  * 03 Assign Finished and Raw Room Height [Dynamo]
+  * 04 Assign Elevation Height [Dynamo]
+* __Selection__
+  * Same category as selected [Python]
+  * Same type as selected [Python]
+  * Titleblocks on sheets [Python]
+  * Select only of categories [Python]
+  * Select only 3D [Python]
+  * Select only 2D [Python]
+  * Deselect grouped elements [Python]
+  * Isolate Panels [Dynamo]
+* __Sheets__
+  * Place View(s) on Sheet [Dynamo]
+* __Tag__
+  * Center Room Tags [Python]
+* __Warning__
+  * Warning Management [Dynamo]
+  * Reset Graphical Override [Dynamo]
+* __Purge__
+  * Purge Delete Backups [Python]
+  * Purge DWG Line Patterns [Python]
+  * Purge imported dwg [Python]
+  * Purge unused scope boxes [Python]
+  * Purge unplaced views [Python]
+  * Purge unused sheets [Python]
+  * Remove unplaced rooms [Python]
+  * Remove unplaced areas [Python]
+  * Remove unenclosed areas [Python]
+  * Delete Family [Python]
+  * Delete selected unplaced Views [Dynamo]
+  * Delete unused View Template [Dynamo]
+  * Delete unused Filters [Dynamo]
+  * Ungroup all [Python]
+* __Excel__
+  * Excel [Dynamo]
+* __Testing__
+  * Testing Dynamo [Dynamo]
+  * Testing Python [Python] 
 
 
 ## Screenshots
