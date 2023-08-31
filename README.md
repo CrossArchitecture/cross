@@ -57,7 +57,7 @@ Cross-Tools is a collection of tools based on Dynamo and/or Python. The aim of t
 ## Requirements
 > It is assumed that you have Autodesk Revit installed on your computer!<br>
 > Revit 2021 has been used for development!<br>
-> Except for pyRevit, the other requirements are not mandatory! But they might be, as I will be looking at the extensions in the future!
+> Except for pyRevit, the other requirements are not mandatory! But they might be, as I will be looking at the extensions in the future!<br>
 > The requirements for Dynamo should only be of interest to you if you want to open and edit the scripts in Dynamo.
 
 __Revit Requirements__
