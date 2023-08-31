@@ -68,33 +68,35 @@ __Revit Requirements__
 5. [Revitron-UI](https://github.com/revitron/revitron-ui)
 6. [Speckle](https://speckle.systems/)
 
-__Dynamo Requirements__
-1. archi-lab.net [2023.213.1722]
-2. Clockwork for Dynamo 2.x [2.6.0]
-3. Crumple [2022.5.27]
-4. DynamoMEP [1.0.3]
-5. JBE sheet views [0.0.1]
-6. Journalysis for Dynamo 2.x [2.4.0]
-7. Luchbox for Dynamo [2018.8.8]
-8. Orchid [206.6.0.5911]
-9. ParametricMonkey [1.3.6]
-10. Quasrll [2021.25.101]
-11. Rhythm [2020.9.8]
-12. spring nodes [210.1.1]
-13. SteamNodes [1.2.4]
-14. Topologic [1.4.0]
-15. TuneUp [1.0.7]
-16. Turn Into List [0.1.5]
-17. Bang! [2021.4.3]
-18. bimorphNodes [4.2.4]
-19. Data-Shapes [2022.2.105]
-20. Genius Loci [2023.2.21]
-21. MEPover [2022.10.30]
-22. Monocle [2023.5.1]
-23. SpeckleDynamo2 [2.0.0]
-24. GenerativeDesign [1.2.1]
-25. GenerativeDesign.Extension [1.3.2.0]
+<details>
+<summary>Dynamo Requirements</summary>
+1. archi-lab.net [2023.213.1722]<br>
+2. Clockwork for Dynamo 2.x [2.6.0]<br>
+3. Crumple [2022.5.27]<br>
+4. DynamoMEP [1.0.3]<br>
+5. JBE sheet views [0.0.1]<br>
+6. Journalysis for Dynamo 2.x [2.4.0]<br>
+7. Luchbox for Dynamo [2018.8.8]<br>
+8. Orchid [206.6.0.5911]<br>
+9. ParametricMonkey [1.3.6]<br>
+10. Quasrll [2021.25.101]<br>
+11. Rhythm [2020.9.8]<br>
+12. spring nodes [210.1.1]<br>
+13. SteamNodes [1.2.4]<br>
+14. Topologic [1.4.0]<br>
+15. TuneUp [1.0.7]<br>
+16. Turn Into List [0.1.5]<br>
+17. Bang! [2021.4.3]<br>
+18. bimorphNodes [4.2.4]<br>
+19. Data-Shapes [2022.2.105]<br>
+20. Genius Loci [2023.2.21]<br>
+21. MEPover [2022.10.30]<br>
+22. Monocle [2023.5.1]<br>
+23. SpeckleDynamo2 [2.0.0]<br>
+24. GenerativeDesign [1.2.1]<br>
+25. GenerativeDesign.Extension [1.3.2.0]<br>
 26. GenerativeDesign.Revit [1.2.1]
+</details>
 
 ## Installation
 In order for Cross-Tools to run on your computer, you will need to do a few installations beforehand. Cross-Tools is based on pyRevit and this is where we start.
@@ -105,8 +107,8 @@ In order for Cross-Tools to run on your computer, you will need to do a few inst
 <img src="./img/Pyrevit_Extensions.png" >
 </div>
 
-4. You should now see a list of all extensions that are either written by pyRevit itself or recommended by pyRevit, this is the __pyRevit Extension Manager__. We now want to add "Cross-Tools" to this list!
-> __"Cross-Tools" should not be visible to you yet, as shown in the screenshot below!__<br>
+4. You should now see a list of all extensions that are either written by pyRevit itself or recommended by pyRevit, this is the __pyRevit Extension Manager__. We now want to add "cross" to this list!
+> __"cross" should not be visible to you yet, as shown in the screenshot below!__<br>
 
 <div align="center">
 <img src="./img/Pyrevit_Extension_Manager_Step01.png" >
@@ -124,11 +126,11 @@ In order for Cross-Tools to run on your computer, you will need to do a few inst
             "default_enabled": "True",
             "type": "extension",
             "rocket_mode_compatible": "False",
-            "name": "Cross-Tools",
+            "name": "cross",
             "description": "Extensions for Cross Architecture",
             "author": "Erich Domme",
             "author_profile": "https://github.com/CrossArchitecture",
-            "url": "https://github.com/CrossArchitecture/Cross-Tools.git",
+            "url": "https://github.com/CrossArchitecture/cross.git",
             "website": "https://github.com/CrossArchitecture",
             "image": "",
             "dependencies": []
@@ -142,7 +144,7 @@ In order for Cross-Tools to run on your computer, you will need to do a few inst
             n. Extension
         },
         {
-            Cross-Tools
+            cross
         }
     ]
 }
@@ -150,25 +152,25 @@ In order for Cross-Tools to run on your computer, you will need to do a few inst
 
 7. Depending on your system it may be enough to reload pyRevit __and__ update it once. However, my recommendation would be a __restart__ of Revit. Any changes will be added automatically. 
 
-8. Navigate to the __pyRevit Extension Manager__ again. You should now be able to see "Cross-Tools"!
+8. Navigate to the __pyRevit Extension Manager__ again. You should now be able to see "cross"!
 
 <div align="center">
 <img src="./img/Pyrevit_Extension_Manager_Step02.png" >
 </div>
 
-9. "Cross-Tools" is a private repository. Therefore the check box "Git repository is private" has to be checked! If you want to get the access token, contact [me](mailto:erich.domme@rwth-aachen.de)!
+9. "Cross-Tools" is currently not a private repository. But that can change, therefore the check box "Git repository is private" has not to be checked! If you want to get the access token, after it is private, contact [me](mailto:erich.domme@rwth-aachen.de)!
 
 <div align="center">
 <img src="./img/Pyrevit_Extension_Manager_Step03.png" >
 </div>
 
-10. In contrast to me, "Cross-Tools" will not yet be installed in your Revit. You should do this by clicking on Install Extension.
+10. In contrast to me, "cross" will not yet be installed in your Revit. You should do this by clicking on Install Extension.
 
 <div align="center">
 <img src="./img/Pyrevit_Extension_Manager_Step04.png" >
 </div>
 
-11. Done! You should now have "Cross-Tools" in Revit!
+11. Done! You should now have "cross" in Revit!
 
 <p align="center">
   <img src=https://media3.giphy.com/media/rY93u9tQbybks/giphy.gif?cid=ecf05e47eap1wzrxxzfedemp62jtrogwbslh12q694q9hdef&ep=v1_gifs_related&rid=giphy.gif&ct=g.gif alt="animated" />
@@ -198,7 +200,7 @@ Congratulations!</p>
 ## Screenshots
 <div align="center">
 <img src="./img/Toolbar.png" >
-<p>The "Cross-Tools" Extension visible in the Revit toolbar</p>
+<p>The "cross" Extension visible in the Revit toolbar</p>
 </div>
 
 ## Usage
